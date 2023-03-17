@@ -4,7 +4,7 @@
 #include "soc/soc.h"
 #include "soc/rtc_cntl_reg.h"
 
-#include "./const.h"
+#include "./const_dev.h"
 
 #if defined(SERIAL_DEBUG)
     #define DBG(x) Serial.println(x)
@@ -26,7 +26,6 @@ void setup() {
     Serial.begin(115200);
     Serial.setDebugOutput(true);
 #endif
-
     wifiInit();
     wifiConnect();
 }
