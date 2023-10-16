@@ -6,4 +6,5 @@ They are 2 steps for building it :
 
 # 2. Uploading the files on the ESP32Cam
 Use a FTDI to connect the ESP32Cam on your computer.
-Download the folder from Github containing all the files (main.cpp, connect.h, 
+Download the folder from Github containing all the files (main.cpp, connect.h, cam.h, etc)
+Open this folder using Arduino IDE and upload the code on the ESP32Cam
